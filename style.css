@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#start-screen {
+  background-image: url("backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 24px;
+  font-family: monospace;
+}
+p {
+  color: #fff;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.progressButton {
+  position: absolute;
+  bottom: 24px; /* Afstand vanaf de onderkant van de pagina */
+  left: 24px; /* Afstand vanaf de linkerkant van de pagina */
+  z-index: 999;
+}
+
+#challenge {
+  position: absolute;
+  bottom: 64px; /* Afstand vanaf de onderkant van de pagina */
+  left: 24px; /* Afstand vanaf de linkerkant van de pagina */
+  z-index: 999;
+}
+
+#map {
+  height: 100vh; /* Neemt volledige hoogte van het scherm in */
+  width: 100vw; /* Neemt volledige breedte van het scherm in */
+}

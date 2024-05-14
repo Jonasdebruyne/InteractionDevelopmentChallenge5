@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoQuest</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="start-screen">
+      <h1>Welcome to GeoQuest</h1>
+      <button onclick="startGame()">Start Game</button>
+    </div>
+    <div id="game-screen" style="display: none; overflow: hidden">
+      <div id="map"></div>
+      <div id="challenge"></div>
+      <button class="progressButton" onclick="showProgress()">Progress</button>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
